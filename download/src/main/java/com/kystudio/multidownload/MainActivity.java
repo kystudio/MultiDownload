@@ -1,12 +1,7 @@
 package com.kystudio.multidownload;
 
-import java.io.File;
-
 import android.app.Activity;
-import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
-import android.os.Environment;
 import android.os.Handler;
 import android.os.Message;
 import android.util.Log;
@@ -14,10 +9,11 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.ProgressBar;
-import android.widget.Toast;
 
 import com.kystudio.thread.MultiThreadDownload;
 import com.kystudio.utils.FileUtil;
+
+import java.io.File;
 
 public class MainActivity extends Activity implements OnClickListener {
     protected static final String TAG = "MainActivity";

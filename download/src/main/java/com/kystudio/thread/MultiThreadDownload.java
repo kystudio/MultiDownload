@@ -12,9 +12,7 @@ import java.net.URL;
 import java.net.URLConnection;
 
 /**
- * 多线程下载，UI更新类
- *
- * @author young
+ * 多线程下载
  */
 public class MultiThreadDownload extends Thread {
     private static final String TAG = "MultiThreadDownload";

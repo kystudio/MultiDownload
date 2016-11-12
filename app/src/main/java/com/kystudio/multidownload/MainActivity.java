@@ -24,7 +24,6 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-import java.util.logging.LogRecord;
 
 public class MainActivity extends AppCompatActivity {
     private static final String TAG = "MultiThreadDownload";
